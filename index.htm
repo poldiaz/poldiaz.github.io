@@ -21,6 +21,19 @@
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
+
+    <!-- Codigo Google Analytics -->
+    <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-36517735-4', 'auto');
+          ga('send', 'pageview');
+
+    </script>
+    <!-- Codigo Google Analytics -->
       
   </head>
     
@@ -178,7 +191,7 @@
             <div class="row">
                 <div class="col-sm-8 col-md-8 col-lg-8 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
                 <h2>Servicios</h2>
-                <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+                <p>Me apasiona la oportunidad de ayudar a lograr un diseño del que usted se sienta orgulloso. Mi principal objetivo es crear experiencias únicas para usted y sus clientes.  </p>
                     
                 </div>
             </div>
@@ -226,7 +239,7 @@
             <div class="row">
                 <div class="col-sm-8 col-md-8 col-lg-8 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
                 <h2>Portafolio</h2>
-                <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>    
+                <!-- <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>  -->   
                 </div>
             </div>
             
@@ -265,14 +278,14 @@
                 
     <!-- Single image modal box###########################################-->
     
-    <div class="md-modal md-effect-1" id="work1"> 
+    <!-- <div class="md-modal md-effect-1" id="work1"> 
         <div class="md-content">
             <button class="button_nav md-close" ><span aria-hidden="true" class="button_nav_icon icon-cross"></span></button>     
             <h3>Deli Gran Gourmet</h3>
             <img src="images/deligran-1.jpg" class="img-responsive" alt="slide">
             <p>Diseño web y maquetación del sitio.</p>                                
         </div>
-    </div>
+    </div> -->
     
     <!--####################################################################-->
     
@@ -294,7 +307,26 @@
       
     <!--####################################################################-->
     
+    <!-- Image slider modal box##############################################-->
     
+    <div class="md-modal md-effect-1" id="work1"> 
+        <div class="md-content">
+            <button class="button_nav md-close" ><span aria-hidden="true" class="button_nav_icon icon-cross"></span></button>     
+            <h3>DeliGran Gourmet</h3>
+            <div class="flexslider-container">
+                <div class="flexslider">
+                        <ul class="slides">
+                            <li><img src="images/deligran-1.jpg" alt="slide"/></li>
+                            <li><img src="images/deligran-2.jpg" alt="slide"/></li>
+                            <li><img src="images/deligran-3.jpg" alt="slide"/></li>
+                        </ul>
+                </div>
+            </div>    
+            <p>Website Design</p>                                
+        </div>
+    </div>  
+    
+    <!--####################################################################-->
     
     <!-- Image slider modal box##############################################-->
     
@@ -305,8 +337,12 @@
             <div class="flexslider-container">
                 <div class="flexslider">
                         <ul class="slides">
+                            <li><img src="images/segundopiso.jpg" alt="slide"/></li>
                             <li><img src="images/segundopiso-1.jpg" alt="slide"/></li>
+                            <li><img src="images/segundopiso-3.jpg" alt="slide"/></li>
+                            <li><img src="images/segundopiso-4.jpg" alt="slide"/></li>
                             <li><img src="images/segundopiso-2.jpg" alt="slide"/></li>
+                            <li><img src="images/segundopiso-5.jpg" alt="slide"/></li>
                         </ul>
                 </div>
             </div>    
@@ -316,31 +352,44 @@
     
     <!--####################################################################-->
 
-    <!-- Single image modal box###########################################-->
+    <!-- Image slider modal box##############################################-->
     
     <div class="md-modal md-effect-1" id="work2"> 
         <div class="md-content">
             <button class="button_nav md-close" ><span aria-hidden="true" class="button_nav_icon icon-cross"></span></button>     
-            <h3>Setlist Maker</h3>
-            <img src="images/setlistmaker-1.jpg" class="img-responsive" alt="slide">
-            <p>Diseño de la interfaz</p>                                
+            <h3>Setlist Maker App</h3>
+            <div class="flexslider-container">
+                <div class="flexslider">
+                        <ul class="slides">
+                            <li><img src="images/setlistmaker-1.jpg" alt="slide"/></li>
+                            <li><img src="images/setlistmaker-2.jpg" alt="slide"/></li>
+                            <li><img src="images/setlistmaker-3.jpg" alt="slide"/></li>
+                            <li><img src="images/setlistmaker-4.jpg" alt="slide"/></li>
+                            <li><img src="images/setlistmaker-5.jpg" alt="slide"/></li>
+                            <li><img src="images/setlistmaker-6.jpg" alt="slide"/></li>
+                        </ul>
+                </div>
+            </div>    
+            <p>Diseño de Interfaz</p>                                
+        </div>
+    </div>  
+    
+    <!--####################################################################-->
+
+     <!-- Single image modal box###########################################-->
+    
+    <div class="md-modal md-effect-1" id="work3"> 
+        <div class="md-content">
+            <button class="button_nav md-close" ><span aria-hidden="true" class="button_nav_icon icon-cross"></span></button>     
+            <h3>Respaldo Online</h3>
+            <img src="images/respaldo.jpg" class="img-responsive" alt="slide">
+            <p>Diseño Flyer</p>                                
         </div>
     </div>
     
     <!--####################################################################-->
 
-    <!-- Single image modal box###########################################-->
     
-    <div class="md-modal md-effect-1" id="work3"> 
-        <div class="md-content">
-            <button class="button_nav md-close" ><span aria-hidden="true" class="button_nav_icon icon-cross"></span></button>     
-            <h3>Setlist Maker</h3>
-            <img src="images/deligran-1.jpg" class="img-responsive" alt="slide">
-            <p>Diseño de la interfaz</p>                                
-        </div>
-    </div>
-    
-    <!--####################################################################-->
     
     
     <div class="md-overlay"></div><!--Modal box overlay-->
@@ -359,27 +408,27 @@
             <div class="row">
                 <div class="col-sm-8 col-md-8 col-lg-8 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
                 <h2>Contáctame</h2>
-                <p>Mándame un mensaje para charlar sobre tu proyecto.</p>                    
+                <!-- <p>Mándame un mensaje para charlar sobre tu proyecto.</p>  -->                   
                 </div>
             </div>
             
             <!-- Contact form ###########################################################--> 
             
-            <form action="js/contactform.php" id="contact-form" method="post">
+            <!-- <form id="form-contact" method="post" role="form">
                 <div class="row">
                     <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                        <input type="email" placeholder="Escribe tu correo" name="contact-email">
+                        <input type="email" placeholder="Escribe tu correo" name="contact-form-email" id="contact-form-email">
                     </div>
                     
                     <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                        <input type="text" placeholder="Escríbe tu nombre" name="contact-name">
+                        <input type="text" placeholder="Escríbe tu nombre" name="contact-form-name" id="contact-form-name">
                     </div>
                     
                     <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                        <input type="text" placeholder="Escribe tu mensaje" name="contact-message">
+                        <input type="text" placeholder="Escribe tu mensaje" name="contact-form-message" id="contact-form-message">
                     </div>
                     <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                        <button id="btn-send" class="btn-blue btn-send btn-sendb icon-mail" type="submit"><span>Enviar</span></button>
+                        <button id="form-contact-submit" name="Enviar" class="btn-blue btn-send btn-sendb icon-mail" type="submit"><span>Enviar</span></button>
                     </div>
                 </div>            
             </form>
@@ -389,13 +438,13 @@
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
                     <div id="message"><div id="alert"></div></div>
                 </div>
-            </div>    
+            </div>   -->  
             
             <!-- //Contact form ###########################################################--> 
             
             <div class="row contact_info" >
                 <div class="col-sm-8 col-md-8 col-lg-8 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
-                <h3>Sígueme</h3>                    
+                <!-- <h3>S</h3>   -->                  
                 </div>
             </div>
             
@@ -419,11 +468,11 @@
                     <span aria-hidden="true" class="icon-messages"></span>
                     <div class="social_icons">
                         <ul>
-                            <li class="social_icon"><a href="http://www.twitter.com/poldiazz"><span aria-hidden="true" class="icon-twitter"></span></a></li>
+                            <li class="social_icon"><a href="http://www.twitter.com/poldiazz" target="_blank"><span aria-hidden="true" class="icon-twitter"></span></a></li>
                             <!-- <li class="social_icon"><a href="#"><span aria-hidden="true" class="icon-facebook"></span></a></li> -->
                             <!-- <li class="social_icon"><a href="#"><span aria-hidden="true" class="icon-dribbble"></span></a></li> -->
-                            <li class="social_icon"><a href="#"><span aria-hidden="true" class="icon-behance"></span></a></li>
-                            <li class="social_icon"><a href="#"><span aria-hidden="true" class="icon-linkedin"></span></a></li>
+                            <li class="social_icon"><a href="https://www.behance.net/pauldiaz" target="_blank"><span aria-hidden="true" class="icon-behance"></span></a></li>
+                            <li class="social_icon"><a href="http://www.linkedin.com/pub/paul-díaz/72/a96/a6a/" target="_blank"><span aria-hidden="true" class="icon-linkedin"></span></a></li>
                         </ul>
                     </div>
                 </div> 
@@ -485,6 +534,8 @@
     <script src="js/jquery.fitvids.js"></script>
     <script src="js/main.js"></script>  
     <script src="js/retina.js"></script>  
+
+
 
   </body>
 </html>
